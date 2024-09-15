@@ -2,11 +2,6 @@
 
 Simple Command Line Interface (CLI) Application to fetch latest events of given user and display in Terminal.
 
-## Usage
-
-- **node index.js username**- Display Latest Events of given username.
-- **node index.js --help**- Display Latest Events of given username.
-
 ## Prerequisites
 
 - Node.js installed on your system.
