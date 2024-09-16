@@ -21,7 +21,7 @@ const checkEventAndDisplay = (username,activity) => {
     let repoName = activity.repo.name;
     switch(activity.type){
         case "WatchEvent" :
-            action = `watched (${repoName}) Repository`;
+            action = `starred (${repoName}) Repository`;
             break;
         case "PushEvent" :
             action = `pushed ${activity.payload.size} commits to ${repoName}` 
